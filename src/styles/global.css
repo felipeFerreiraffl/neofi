@@ -1,11 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
-    background: none;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
 }
 
 :root {
+  /* ---------- Cores ---------- */
+  --color-green: #9dff3a;
+  --color-gradient: linear-gradient(to bottom, #75a941, #3a7500);
+  --color-neutral-white: #e5e5e5;
+  --color-neutral-gray-1: #999999;
+  --color-neutral-gray-2: #4d4d4d;
+  --color-neutral-gray-3: #2e2e2e;
+  --color-neutral-gray-4: #0f0f0f;
 
+  /* ---------- Texto ---------- */
+  --text-website-title-1: 700 64px "Alexandria", sans-serif;
+  --text-website-title-2: 400 48px "Alexandria", sans-serif;
+  --text-website-title-3: 400 40px "Alexandria", sans-serif;
+  --text-website-subtitle: 400 20px "Alexandria", sans-serif;
+  --text-website-button: 400 48px "Alexandria", sans-serif;
+  --text-website-text-1: 400 48px "Alexandria", sans-serif;
+  --text-website-text-2: 400 48px "Alexandria", sans-serif;
+  --text-website-caption: 400 48px "Alexandria", sans-serif;
 }
