@@ -18,12 +18,23 @@
   --color-neutral-gray-4: #0f0f0f;
 
   /* ---------- Texto ---------- */
+
+  /* Desktop */
   --text-website-title-1: 700 64px "Alexandria", sans-serif;
   --text-website-title-2: 400 48px "Alexandria", sans-serif;
   --text-website-title-3: 400 40px "Alexandria", sans-serif;
   --text-website-subtitle: 400 20px "Alexandria", sans-serif;
-  --text-website-button: 400 48px "Alexandria", sans-serif;
-  --text-website-text-1: 400 48px "Alexandria", sans-serif;
-  --text-website-text-2: 400 48px "Alexandria", sans-serif;
-  --text-website-caption: 400 48px "Alexandria", sans-serif;
+  --text-website-button: 400 18px "Alexandria", sans-serif;
+  --text-website-text-1: 400 16px "Alexandria", sans-serif;
+  --text-website-text-2: 400 14px "Alexandria", sans-serif;
+  --text-website-caption: 400 12px "Alexandria", sans-serif;
+
+  /* Mobile */
+  --text-mobile-title-1: 500 40px "Alexandria", sans-serif;
+  --text-mobile-title-2: 400 28px "Alexandria", sans-serif;
+  --text-mobile-subtitle: 400 20px "Alexandria", sans-serif;
+  --text-mobile-button: 400 18px "Alexandria", sans-serif;
+  --text-mobile-text-1: 400 16px "Alexandria", sans-serif;
+  --text-mobile-text-2: 400 14px "Alexandria", sans-serif;
+  --text-mobile-caption: 400 12px "Alexandria", sans-serif;
 }
