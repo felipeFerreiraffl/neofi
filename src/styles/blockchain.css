@@ -67,6 +67,7 @@ body {
   background: linear-gradient(45deg, #b3b3b3, #4d4d4d);
   border-radius: 20px;
   overflow: hidden;
+  transition: 0.4s ease-in-out;
 }
 
 .blockchain .items-container .card::before {
@@ -79,6 +80,16 @@ body {
 
 .blockchain .items-container .card * {
   z-index: 10;
+}
+
+.blockchain .items-container .card:hover {
+  transform: translateY(-4px);
+  box-shadow: -4px 4px 16px rgb(157, 255, 58, 0.4);
+}
+
+.blockchain .items-container .card img {
+  width: 30px;
+  aspect-ratio: 1 / 1;
 }
 
 .blockchain .items-container .card .content {
