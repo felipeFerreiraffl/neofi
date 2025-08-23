@@ -1,0 +1,58 @@
+.stat{
+    padding: 60px 120px 60px 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-neutral-gray-4);
+}
+
+.stat> .stat-content{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px; 
+}
+
+.stat-content>h2{
+    text-align: justify;
+    color: var(--color-neutral-white);
+    font: var(--text-mobile-title-2);
+}
+
+.stat-content>.stat-text{
+    width: 644px;
+    text-align: center;
+    font-family: var();
+    font-size: 18px;
+    color: var(--color-neutral-gray-1);
+}
+
+.stat> .statics{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.stat .statics .statics-values{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.stat .statics .statics-values h2{
+    color: var(--color-green);
+    font: var(--text-website-title-2);
+}
+
+.statics .statics-values p{
+    font: var(--text-website-subtitle);
+    font-size: 20px;
+    color: var(--color-neutral-gray-1);
+}
+
+
+
