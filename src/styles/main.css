@@ -76,6 +76,7 @@ body {
   align-items: center;
   gap: 6px;
   background: linear-gradient(45deg, #b3b3b3, #4d4d4d);
+  overflow: hidden;
 }
 
 .btn-container .btn-secondary::before {
