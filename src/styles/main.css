@@ -7,7 +7,9 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 100px;
+  padding: 60px 0;
 }
 
 .hero .content {
@@ -56,8 +58,10 @@ body {
 }
 
 .btn-container .btn {
+  cursor: pointer;
   padding: 14px 24px;
   border-radius: 40px;
+  transition: 0.3s ease-in-out;
 }
 
 .btn-container .btn-primary {
@@ -67,11 +71,23 @@ body {
 }
 
 .btn-container .btn-secondary {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 6px;
-  border: 1.5px solid transparent;
-  border-image: linear-gradient(45deg, #b3b3b3, #4d4d4d) 1.5;
+  background: linear-gradient(45deg, #b3b3b3, #4d4d4d);
+}
+
+.btn-container .btn-secondary::before {
+  content: "";
+  position: absolute;
+  inset: 1.5px;
+  border-radius: 38px;
+  background: #000;
+}
+
+.btn-container .btn-secondary * {
+  z-index: 10;
 }
 
 .btn-container .btn-secondary img {
@@ -82,4 +98,19 @@ body {
 .btn-container .btn-secondary p {
   font: var(--text-website-button);
   color: var(--color-neutral-white);
+}
+
+.hero .content .img {
+  width: 512px;
+  aspect-ratio: 1 / 1;
+}
+
+.hero .content .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
 }
