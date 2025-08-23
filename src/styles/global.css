@@ -23,8 +23,9 @@
   --text-website-title-1: 700 64px "Alexandria", sans-serif;
   --text-website-title-2: 400 48px "Alexandria", sans-serif;
   --text-website-title-3: 400 40px "Alexandria", sans-serif;
-  --text-website-subtitle: 400 20px "Alexandria", sans-serif;
+  --text-website-subtitle: 400 20px "Inter", sans-serif;
   --text-website-button: 400 18px "Alexandria", sans-serif;
+  --text-website-desc: 400 18px "Inter", sans-serif;
   --text-website-text-1: 400 16px "Alexandria", sans-serif;
   --text-website-text-2: 400 14px "Alexandria", sans-serif;
   --text-website-caption: 400 12px "Alexandria", sans-serif;
@@ -32,8 +33,9 @@
   /* Mobile */
   --text-mobile-title-1: 500 40px "Alexandria", sans-serif;
   --text-mobile-title-2: 400 28px "Alexandria", sans-serif;
-  --text-mobile-subtitle: 400 20px "Alexandria", sans-serif;
+  --text-mobile-subtitle: 400 20px "Inter", sans-serif;
   --text-mobile-button: 400 18px "Alexandria", sans-serif;
+  --text-mobile-desc: 400 18px "Inter", sans-serif;
   --text-mobile-text-1: 400 16px "Alexandria", sans-serif;
   --text-mobile-text-2: 400 14px "Alexandria", sans-serif;
   --text-mobile-caption: 400 12px "Alexandria", sans-serif;
@@ -45,6 +47,11 @@
   border-radius: 24px;
   font: var(--text-website-text-2);
   color: var(--color-green);
+  transition: 0.3s ease-in-out;
+}
+
+.section:hover .batch {
+  border: 1px solid var(--color-green);
 }
 
 body {
