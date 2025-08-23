@@ -1,0 +1,27 @@
+.answers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 62px 328.5px;
+}
+
+.to-common {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answers h2 {
+    font: var(--text-website-title-2);
+    color: var(--color-neutral-white);
+}
+
+.text-questions {
+    text-align: center;
+    max-width: 670px;
+    font: var(--text-website-button);
+    color: var(--color-neutral-gray-1);
+}
