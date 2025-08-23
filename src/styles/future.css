@@ -1,5 +1,16 @@
+@import url("./global.css");
+
 body {
     background-color: black;
+}
+
+
+.future {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    flex-direction: column;
 }
 
 .future-break {
@@ -8,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 60px 0px;
+    padding: 60px 120px;
     flex-direction: column;
     gap: 20px;
     color: aliceblue;
@@ -25,21 +36,42 @@ body {
 
 .card-future {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    background-color: #0a0a0a;
+    gap: 20px;
 }
 
-.cards {
-    width: 410.67px;
+.card-future .cards {
+    padding: 48px 36px;
     border: solid var(--color-neutral-gray-1);
     border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s;
 }
 
-.card-future div h3 {
+.card-future .cards:hover {
+    transform: scale(1.02);
+    box-shadow: -1px 1px 20px rgba(191, 255, 174, 0.614);
+}
+
+.card-future .cards h3 {
+    font: var(--text-website-subtitle);
     color: var(--color-neutral-white);
 }
 
-.card-future div p {
+.card-future .cards p {
+    font: var(--text-website-text-1);
     color: var(--color-neutral-gray-1);
+    text-align: center;
+    max-width: 338px;
+}
+
+.cards img {
+    width: 48px;
+    height: 48px;
 }
