@@ -9,7 +9,7 @@
 }
 
 .brands>p{
-    font-family: var(--text-mobile-text-1);
+    font: var(--text-mobile-text-1);
     color: var(--color-neutral-gray-1);
 }
 

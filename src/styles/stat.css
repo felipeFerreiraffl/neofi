@@ -22,8 +22,7 @@
 .stat-content>.stat-text{
     width: 644px;
     text-align: center;
-    font-family: var();
-    font-size: 18px;
+    font: var(--text-mobile-desc);
     color: var(--color-neutral-gray-1);
 }
 
