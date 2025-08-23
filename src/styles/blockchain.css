@@ -24,8 +24,7 @@
 }
 
 .blockchain .title-container .subtitle {
-  font-size: 18px;
-  font-weight: 400;
+  font: var(--text-website-desc);
   color: var(--color-neutral-gray-1);
 }
 
