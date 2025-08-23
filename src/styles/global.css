@@ -39,4 +39,13 @@
   --text-mobile-caption: 400 12px "Alexandria", sans-serif;
 }
 
+.batch {
+  padding: 12px 20px;
+  border: 1px solid rgb(46, 46, 46, 0.6);
+  border-radius: 24px;
+}
 
+.batch p {
+  font: var(--text-website-text-2);
+  color: var(--color-green);
+}
