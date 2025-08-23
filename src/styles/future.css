@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.future-break {
+    font: var(--text-website-text-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+    flex-direction: column;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.future-break h2 {
+    font: var(--text-website-title-2);
+}
+
+.text-future {
+    width: 572px;
+    color: var(--color-neutral-gray-1);
+}
+
+.card-future {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards {
+    width: 410.67px;
+    border: solid var(--color-neutral-gray-1);
+    border-radius: 12px;
+}
+
+.card-future div h3 {
+    color: var(--color-neutral-white);
+}
+
+.card-future div p {
+    color: var(--color-neutral-gray-1);
+}
