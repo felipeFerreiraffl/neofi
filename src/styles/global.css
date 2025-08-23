@@ -46,3 +46,7 @@
   font: var(--text-website-text-2);
   color: var(--color-green);
 }
+
+body {
+  background-color: #000;
+}
