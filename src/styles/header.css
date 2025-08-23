@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.navegate {
+    font: var(--text-website-text-1);
+    display: flex;
+    gap: 40px;
+    transition: 0.3s;
+}
+
+.navegate span {
+    color: var(--color-neutral-white);
+}
+
+.navegate a {
+    color: var(--color-neutral-gray-1);
+    transition: 0.3s;
+}
+
+.navegate a:hover {
+    color: var(--color-green);
+}
+
+.buttons-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--text-website-text-1);
+    gap: 16px;
+}
+
+.login {
+    color: var(--color-neutral-white);
+    transition: 0.5s;
+}
+
+.login:hover {
+    transform: translateY(-3px);
+}
+
+.btn-login {
+    padding: 10px 24px;
+    border: solid var(--color-green);
+    border-radius: 40px;
+    background-color: var(--color-green);
+    color: var(--color-neutral-gray-4);
+    transition: 0.5s;
+}
+
+.btn-login:hover {
+    transform: translateY(-3px);
+}
