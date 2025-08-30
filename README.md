@@ -52,7 +52,7 @@ Este projeto consiste em uma implementação de uma landing page para uma plataf
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
 
-![Mobile1](https://github.com/MatheusAlvarez/Nexcent/blob/main/src/assets/images/Thumbnail.png)
+![Project Image](./src/assets/screenshot.png)
 
 ---
 
