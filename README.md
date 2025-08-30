@@ -89,7 +89,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Prototipação** ([Figma](https://www.figma.com/))
 
-- **[Protótipo](https://www.figma.com/file/J1zv4Q8hCFhxhuZE5XINxu/Prototipa%C3%A7%C3%A3o-desafio-Digitalk?t=9EYQVYnf9XIZWWZr-1)**
+- **[Protótipo]([https://www.figma.com/file/J1zv4Q8hCFhxhuZE5XINxu/Prototipa%C3%A7%C3%A3o-desafio-Digitalk?t=9EYQVYnf9XIZWWZr-1](https://www.figma.com/design/nBHjZaIpgqm2ArumJbdC9t/Projeto-NeoFi?node-id=0-1&p=f&t=KeT69l8miu1W94MH-0))**
 
 ---
 
