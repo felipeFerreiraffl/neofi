@@ -27,7 +27,7 @@
 
 - src
   - assets
-  - style
+  - styles
 - index.html
 
 ---
